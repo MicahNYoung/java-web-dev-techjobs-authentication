@@ -16,6 +16,7 @@
 <div th:fragment="page-header" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
+            <p th:text="${user}"></p>
             <a th:href="@{/}" class="navbar-brand">TechJobs</a>
         </div>
         <div class="navbar-collapse collapse">
